@@ -6,17 +6,17 @@ public class DeleteElement {
         arr[2] = 2;
         arr[3] = 7;
         arr[4] = 9;
-        int n = 5;
+        int length = 5;
         for(int i=0;i<n;i++){
             System.out.print(arr[i]+" ");
         }
         System.out.println();
         int index = 2;
 
-        for(int i=index;i<n-1;i++) {
+        for(int i=index;i<length-1;i++) {
             arr[i] = arr[i + 1];
         }
-        n-- ;
+        length-- ;
 
         for(int i=0;i<n;i++){
             System.out.print(arr[i]+" ");
