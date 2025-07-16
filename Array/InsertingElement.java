@@ -6,7 +6,7 @@ public class InsertingElement {
         arr[2] = 2;
         arr[3] = 7;
         arr[4] = 9;
-        int n = 5;
+        int length = 5;
         for(int i=0;i<n;i++){
             System.out.print(arr[i]+" ");
         }
@@ -14,11 +14,11 @@ public class InsertingElement {
         int x = 20;
         int index = 3;
 
-        for(int i=n;i>index;i--){
+        for(int i=length;i>index;i--){
             arr[i] = arr[i-1];
         }
         arr[index] = x;
-        n++;
+        length++;
 
         for(int i=0;i<n;i++){
             System.out.print(arr[i]+" ");
